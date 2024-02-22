@@ -3,3 +3,34 @@
     box-sizing: border-box;
     margin: 0;
 }
+/* heade */
+header{
+    background-color: #add8e6;
+    height: 50px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.contenitore{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 250px;
+    background-color: #daa520;
+    
+}
+
+.logo, .login{
+    width: 25%;
+    border: 1px dashed black;
+    
+}
+.link{
+    width: 50%;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
