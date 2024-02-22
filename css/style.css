@@ -38,7 +38,7 @@ header{
 /* banner */
 .banner{
     background-color: #00008b;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,14 +46,14 @@ header{
 .banner-2{
     background-color: #ee82ee;
     width: 40%;
-    height: 125px;
+    height: 200px;
     border: 1px dashed black;
 
 }
 
 .cont-sm{
     background-color: white;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,14 +61,14 @@ header{
 .cont-small{
     background-color: #ffc0cb;
     width:20%;
-    height: 180px;
+    height: 250px;
     border: 1px dashed black;
 }
 
 .cont-big{
     background-color:#1e90ff;
     width: 40%;
-    height: 180px ;
+    height: 250px ;
     border: 1px dashed black;
 }
 .grigio{
@@ -77,7 +77,7 @@ header{
 
 .cont-superbig{
     background-color:#d3d3d3 ;
-    height: 350px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,8 +85,64 @@ header{
 
 .superbig{
     background-color: #228b22;
-    height: 300px;
+    height: 375px;
     border: 1px dashed black;
     width: 60%
+}
+
+/* footer */
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.cont-footer{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 350px;
+    margin-top: 15px;
     
+
+}
+.cont-ft1{
+    background-color: #f08080;
+    width: 40%;
+    border: 1px dashed black;
+
+}
+.cont-ft2{
+    background-color: #20b2aa;
+    width: 20%;
+    border: 1px dashed white;
+}
+
+.footer-fine{
+    display: flex;
+    justify-content: space-between;;
+    width: 60%;
+    background-color: #7fffd4;
+    margin-top: 15px;
+    padding: 7px 0;
+}
+
+.footer-logo{
+    background-color: #f08080;
+    border: 1px dashed black;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.footer-Bottone{
+    background-color: #f08080;
+    border: 1px dashed black;
+    padding: 2px;
+    font-size: 10px;
+}
+hr{
+    border: 1px solid white;
+    width: 100%;
 }
