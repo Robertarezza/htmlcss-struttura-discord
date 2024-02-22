@@ -7,15 +7,15 @@
 header{
     background-color: #add8e6;
     height: 50px;
-    margin: 0;
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contenitore{
+.cont-header{
     display: flex;
     justify-content: center;
     width: 60%;
-    margin: 0 250px;
     background-color: #daa520;
     
 }
@@ -33,4 +33,60 @@ header{
 
 .login{
     text-align: right;
+}
+
+/* banner */
+.banner{
+    background-color: #00008b;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-2{
+    background-color: #ee82ee;
+    width: 40%;
+    height: 125px;
+    border: 1px dashed black;
+
+}
+
+.cont-sm{
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-small{
+    background-color: #ffc0cb;
+    width:20%;
+    height: 180px;
+    border: 1px dashed black;
+}
+
+.cont-big{
+    background-color:#1e90ff;
+    width: 40%;
+    height: 180px ;
+    border: 1px dashed black;
+}
+.grigio{
+    background-color: #d3d3d3;
+}
+
+.cont-superbig{
+    background-color:#d3d3d3 ;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.superbig{
+    background-color: #228b22;
+    height: 300px;
+    border: 1px dashed black;
+    width: 60%
+    
 }
